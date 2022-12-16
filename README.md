@@ -1,2 +1,2 @@
 # blogReactApp
-First blog using React
+That is my first blog using React :-)
