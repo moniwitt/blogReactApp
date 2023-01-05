@@ -1,22 +1,15 @@
 import React from 'react';
 import './Posts.css';
 import Post from '../Post/Post';
+import photoBali from '../img/Bali.jpg';
 
 const Posts = () => {
   const blogPosts = [
     {
-      title: 'JAVASCRIPT',
-      body: `JavaScript is the world most popular 
-      lightweight, interpreted compiled programming 
-      language. It is also known as scripting 
-      language for web pages. It is well-known for 
-      the development of web pages, many non-browser 
-      environments also use it. JavaScript can be 
-      used for Client-side developments as well as 
-      Server-side developments`,
-      author: 'Nishant Singh ',
-      imgUrl:
-        'https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png',
+      title: 'Bali Indonesia',
+      body: `Beyond stunning beaches and magical temples, Bali has virtually every kind of natural beauty. Glorious mountainous areas with lush greenery, scenic lakes, gorgeous waterfalls, iconic rice fields, flower gardens, gushing sacred rivers and secret canyons all make up the island’s landscape.`,
+      author: 'Monica Witt ',
+      imgUrl: { photoBali },
     },
     {
       title: 'Data Structure ',
