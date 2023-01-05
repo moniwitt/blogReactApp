@@ -6,7 +6,7 @@ const Post = ({ post: { title, body, imgUrl, author }, index }) => {
     <div className="post-container">
       <h1 className="heading">{title}</h1>
       <img className="image" src={imgUrl} alt="post" />
-      <p>{body}</p>
+      <p className="text">{body}</p>
       <div className="info">
         <h4>Written by: {author}</h4>
       </div>
