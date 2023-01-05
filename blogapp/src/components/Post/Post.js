@@ -1,5 +1,6 @@
 import React from 'react';
 import './Post.css';
+
 const Post = ({ post: { title, body, imgUrl, author }, index }) => {
   return (
     <div className="post-container">
