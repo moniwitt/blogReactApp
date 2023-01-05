@@ -2,6 +2,9 @@ import React from 'react';
 import './Posts.css';
 import Post from '../Post/Post';
 import photoBali from '../img/Bali.jpg';
+import photoMaldives from '../img/Maldives.jpg';
+import photoArgentina from '../img/Argentina.jpg';
+import photoChile from '../img/Chile.jpg';
 
 const Posts = () => {
   const blogPosts = [
@@ -9,50 +12,25 @@ const Posts = () => {
       title: 'Bali Indonesia',
       body: `Beyond stunning beaches and magical temples, Bali has virtually every kind of natural beauty. Glorious mountainous areas with lush greenery, scenic lakes, gorgeous waterfalls, iconic rice fields, flower gardens, gushing sacred rivers and secret canyons all make up the island’s landscape.`,
       author: 'Monica Witt ',
-      imgUrl: { photoBali },
+      imgUrl: photoBali,
     },
     {
-      title: 'Data Structure ',
-      body: `There are many real-life examples of 
-      a stack. Consider an example of plates stacked 
-      over one another in the canteen. The plate 
-      which is at the top is the first one to be 
-      removed, i.e. the plate which has been placed 
-      at the bottommost position remains in the 
-      stack for the longest period of time. So, it 
-      can be simply seen to follow LIFO(Last In 
-      First Out)/FILO(First In Last Out) order.`,
-      author: 'Suresh Kr',
-      imgUrl:
-        'https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png',
+      title: 'Argentina - La Angostura ',
+      body: `Nicknamed the garden of Patagonia, Villa la Angostura and the surrounding area is known to be one of the most beautiful parts of the the Lake District. Situated on the northwestern shore of Lake Nahuel Huapi north of Bariloche, Villa la Angostura has a small collection of fantastic hotels and an enviable location.`,
+      author: 'Monica Witt',
+      imgUrl: photoArgentina,
     },
     {
-      title: 'Algorithm',
-      body: `The word Algorithm means “a process 
-      or set of rules to be followed in calculations 
-      or other problem-solving operations”. Therefore 
-      Algorithm refers to a set of rules/instructions 
-      that step-by-step define how a work is to be 
-      executed upon in order to get the expected 
-      results. `,
-      author: 'Monu Kr',
-      imgUrl:
-        'https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png',
+      title: 'Maldives',
+      body: `The point of the Maldives is that it is not a single large island but is, instead, a collection of thousands of tiny coral islands. A few are large enough to support an international airport (on one island) or a small town called Male (on another island) that serves as the capital of the Maldives. But most are tiny.`,
+      author: 'Monica Witt',
+      imgUrl: photoMaldives,
     },
     {
-      title: 'Computer Network',
-      body: `An interconnection of multiple devices, 
-      also known as hosts, that are connected using 
-      multiple paths for the purpose of sending/
-      receiving data media. Computer networks can 
-      also include multiple devices/mediums which 
-      help in the communication between two different 
-      devices; these are known as Network devices
-      and include things such as routers, switches,
-      hubs, and bridges. `,
-      author: 'Sonu Kr',
-      imgUrl:
-        'https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png',
+      title: 'Chile - Pichilemu',
+      body: `It is widely considered one of the best beaches for surfing worldwide. In 2012, it was named one of the "50 most thrilling surf destinations". Pichilemu is regarded as the prime location for surfing in Chile, particularly at Punta de Lobos.`,
+      author: 'Monica Witt',
+      imgUrl: photoChile,
     },
   ];
 
