@@ -1,17 +1,24 @@
 .post-container {
-  background: #e2e8d5;
-  display: flex;
-  flex-direction: column;
+  background: #ffc6d3;
   padding: 3%;
-  margin: 0 2%;
+  margin: 0 10%;
 }
+
 .heading {
-  height: 126px;
+  color: #fd8bb0;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
+
 .image {
-  width: 100%;
-  height: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
 }
+
+.info {
+  padding: 3px;
+}
+

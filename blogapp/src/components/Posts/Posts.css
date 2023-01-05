@@ -1,9 +1,9 @@
 body {
-  background-color: #0e9d57;
+  background-color: #e98ead;
 }
 
 .posts-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'josefin Sans', sans-serif;
+    color: #3a4f7a;
 }
+
