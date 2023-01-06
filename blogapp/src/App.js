@@ -6,7 +6,8 @@ import Posts from './components/Posts/Posts';
 const App = () => {
   return (
     <div className="main-container">
-      <h1 className="main-heading">Welcome to my Voyage Blog</h1>
+      <h1 className="main-heading">Welcome</h1>
+      <h2 className="second-heading"> to my Voyage Blog</h2>
       <Posts />
     </div>
   );

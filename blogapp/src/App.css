@@ -1,6 +1,14 @@
 .main-heading {
   text-align: center;
+  color: #181D31;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  transform: rotate(-30deg);
+ }
+
+.second-heading {
+  text-align: center;
   color: #73706f;
-  font-family: 'Inspiration', cursive;
-  font-size: 42px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 26px;
 }
