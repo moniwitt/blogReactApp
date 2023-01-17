@@ -11,9 +11,9 @@ const TopBar = () => {
       </div>
       <div className="topCenter">
         <ul className="topList">
-          <li ClassName="topListItem">HOME</li>
-          <li ClassName="topListItem">ABOUT</li>
-          <li ClassName="topListItem">CONTACT</li>
+          <li className="topListItem">HOME</li>
+          <li className="topListItem">ABOUT</li>
+          <li className="topListItem">CONTACT</li>
         </ul>
       </div>
       <div className="topRight">
